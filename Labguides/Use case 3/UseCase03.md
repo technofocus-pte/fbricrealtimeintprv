@@ -136,7 +136,7 @@ of resources.
 ## Task 0: Redeem Azure Pass
 
 1.  Open a new tab on your browser and browse to the **Microsoft Azure
-    Pass** website using the given link+++https://www.microsoftazurepass.com/+++.
+    Pass** website using the given link !!https://www.microsoftazurepass.com/!!.
 
 2.  Click on **Start**.
 
@@ -189,7 +189,7 @@ dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and
 reports.
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://app.fabric.microsoft.com/+++ then press the
+    the following URL: !!https://app.fabric.microsoft.com/!! then press the
     **Enter** button. In the **Microsoft Fabric Home** page, navigate
     and click on **Power BI** tile.
 
@@ -208,7 +208,7 @@ reports.
     enter the following details, and click on the **Apply** button.
     |  |  |
     |---|---|
-    |Name|	+++RealTimeWorkspaceXXX+++ (XXX can be a unique number, you can add more numbers)|
+    |Name|	!!RealTimeWorkspaceXXX!! (XXX can be a unique number, you can add more numbers)|
     |Advanced|	Select Trail|
     |Default storage forma|	Small dataset storage format|
 
@@ -236,7 +236,7 @@ To auto-deploy the resources, use these steps below.
     |  |  |
     |---|---|
     |Subscription|	Select the assigned subscription|
-    |Resource group|	Click on Create new> enter +++realtimeworkshop+++ and select Ok|
+    |Resource group|	Click on Create new> enter !!realtimeworkshop!! and select Ok|
     |Region	|Select West US 3|
 
 
@@ -286,7 +286,7 @@ To auto-deploy the resources, use these steps below.
 
 2.  On the **Synapse Real-Time Analytics** home page,
     select **Eventstream**. Name the Eventstream
-    +++StockEventStream+++, click on the **Create** button.
+    !!StockEventStream!!, click on the **Create** button.
 
       ![](./media/image28.png)
       
@@ -307,8 +307,8 @@ To auto-deploy the resources, use these steps below.
       i.	Cloud connection: Click on the **Create new** and enter the below details then click on Create button.
     
             a.	In **Event Hub namespace**-Enter **Event Hub name** (the values that you have saved in your notepad in the **Task 2**)
-            b.	Event Hub : +++StockEventHub+++
-            c.	Shared Access Key Name:**+++stockeventhub_sas+++**
+            b.	Event Hub : !!StockEventHub!!
+            c.	Shared Access Key Name:**!!stockeventhub_sas!!**
             d.	Shared Access Key- Enter **Primary Key** (the value that you have saved in your notepad in the Task 2)
     
       ii.	Consumer group: **$Default**
@@ -375,7 +375,7 @@ the Eventstream into the KQL DB.
 
       ![](./media/image44.png)
 
-3.  In the **New Eventhouse** dialog box, enter +++StockDB+++in
+3.  In the **New Eventhouse** dialog box, enter !!StockDB!! in
     the **Name** field, click on the **Create** button and open the new
     Eventhouse.
 
@@ -417,7 +417,7 @@ the Eventstream into the KQL DB.
 4.  On the KQL settings, select **Direct ingestion**. While we have the
     opportunity to process event data at this stage, for our purposes,
     we will ingest the data directly into the KQL database. Set the
-    destination name to +++KQL+++, then select your **workspace,
+    destination name to !!KQL!!, then select your **workspace,
     Eventhouse** and KQL database created in the above task, then click
     on **Save** button.
 
@@ -442,7 +442,7 @@ the Eventstream into the KQL DB.
 
 8.  The next page allows us to inspect and configure the schema. Be sure
     to change the format from TXT to **JSON**, if necessary. The default
-    columns of *symbol*, *price*, and *timestamp* should be formatted as
+    columns of **symbol**, **price**, and **timestamp** should be formatted as
     shown in the below image; then click on the **Finish** button.
 
     ![](./media/image59.png)
@@ -540,7 +540,7 @@ complexity to support different business uses.
 
 1.  Create a new tab within the queryset by clicking on the ***+* icon**
     as shown in the below image. Rename this tab as
-    **+++StockByTime+++**
+    **!!StockByTime!!**
 
       ![](./media/image74.png)
      
@@ -596,7 +596,7 @@ complexity to support different business uses.
 
 1.  Create another new tab within the queryset by clicking on
     the  **+** **icon** as shown in the below image. Rename this tab as
-    **+++StockAggregate+++**
+    **!!StockAggregate!!**
 
       ![](./media/image78.png)
      
@@ -636,7 +636,7 @@ complexity to support different business uses.
 
 1.  Create another new tab within the queryset by clicking on
     the ***+ icon** as shown in the below image. Rename this tab as
-    **+++ StockBinned+++**
+    **!!StockBinned!!**
 
       ![](./media/image81.png)
       
@@ -667,7 +667,7 @@ complexity to support different business uses.
 
 1.  Create a final new tab within the queryset by clicking on
     the ***+* icon** as shown in the below image. Rename this tab as
-    **+++Visualizations+++**. We'll use this tab to explore
+    **!!Visualizations!!**. We'll use this tab to explore
     visualizing data.
 
     ![](./media/image84.png)
@@ -719,7 +719,7 @@ Our Power BI tenant needs to be configured to allow for more frequent
 updating.
 
 1.  To configure this setting, navigate to the Power BI admin portal by
-    clicking on the ***Settings* **icon in the upper right corner of the
+    clicking on the  **Settings** icon in the upper right corner of the
     **Fabric portal**. Navigate to Governance and insights section, then
     click on **Admin portal**.
 
@@ -787,7 +787,7 @@ updating.
       ![](./media/image98.png)
 
 6.  On **Just a few details first** dialog box, in **Name your file in
-    Power BI** field, enter +++RealTimeStocks+++. In **Save it to
+    Power BI** field, enter !!RealTimeStocks!!. In **Save it to
     a workspace** field, click on the dropdown and select
     ***RealTimeWorkspace***. Then, click on the **Continue** button.
 
@@ -942,10 +942,10 @@ resemble the following:
 
       |  |   |
       |---|---|
-      |Destination name|	+++Lakehouse+++|
+      |Destination name|	!!Lakehouse!!|
       |Workspace	|RealTimeWorkspace|
       |Lakehouse|	StockLakehouse|
-      |Delta table|	Click on Create new> enter +++raw_stock_data+++|
+      |Delta table|	Click on Create new> enter !!raw_stock_data!!|
       |Input data format|	Json|
 
 
@@ -987,8 +987,8 @@ resemble the following:
 
     ![](./media/image128.png)
 
-12. In the ***Manage fields*** pane that opens, click ***Add all
-    fields*** to add all columns. Then, remove the fields
+12. In the **Manage fields** pane that opens, click **Add all
+    fields** to add all columns. Then, remove the fields
     **EventProcessedUtcTime**, **PartitionId**, and
     **EventEnqueuedUtcTime** by clicking the **ellipsis (...)** to the
     right of the field name, and click **Remove** 
@@ -1233,8 +1233,8 @@ Lakehouse if it is not already added.
 
     ![](./media/image174.png)
 
-12. From the ***Target columns*** dropdown, select
-    the ***symbol*** and ***price* **columns and then click on ***Apply
+12. From the **Target columns** dropdown, select
+    the **symbol** and **price**columns and then click on ***Apply
     button** below it as shown in the image . 
 
     ![](./media/image175.png)
@@ -1336,7 +1336,7 @@ the notebook to help fix any issues after.
 
 3.  Under  **Target columns**  field, click on the dropdown and select
      **timestamp** . Then, in the  **Derived column**  name  field,
-    enter **+++datestamp+++** 
+    enter **!!datestamp!!** 
 
      ![](./media/image191.png)
 
@@ -1356,13 +1356,13 @@ the notebook to help fix any issues after.
     ![](./media/image194.png)
 
 6.  Under **Target columns**, choose  **timestamp** . Enter a  **Derived
-    column** name  of +++hour+++ 
+    column** name  of !!hour!! 
 
      ![](./media/image195.png)
-7.  In the new ***hour***column that appear in the data preview, enter
+7.  In the new  **hour** column that appear in the data preview, enter
     an hour for any given row -- but try to pick a row that has a unique
     hour value. For example, if the *timestamp* is *2024-02-07
-    09:54:00* enter ***9***. You may need to enter example values for
+    09:54:00* enter **9**. You may need to enter example values for
     several rows, as shown here. Click on **Apply** button.
 
      ![](./media/image196.png)
@@ -1384,11 +1384,10 @@ the notebook to help fix any issues after.
 
      ![](./media/image197.png)
 
- 9.  Same as with the hour column, create a new ***minute* **column. In
-    the new *minute* column, enter a minute for any given row. For
-    example, if the *timestamp* is *2024-02-07 09:54:00* enter *54*. You
-    may need to enter example values for several rows.
-
+ 9.  Same as with the hour column, create a new **minute**column. In
+     the new **minute** column, enter a minute for any given row. For
+     example, if the **timestamp** is **2024-02-07 09:54:00** enter **54**. You
+     may need to enter example values for several rows.
      ![](./media/image198.png)
 
 10. The code generated should look similar to:
@@ -1417,7 +1416,7 @@ the notebook to help fix any issues after.
      ![](./media/image201.png)
 12. Convert the minute column to an integer using the same steps as you
     just performed for the hour. Click on the **ellipsis (...)** in the
-    corner of the ***minute column** and select  **Change column**
+    corner of the **minute column** and select  **Change column**
     type . Click on the dropdown beside ***New type** , navigate and
     select  **int32**,  then click on the  **Apply button**  as shown in
     the below image.
@@ -1458,8 +1457,8 @@ the notebook to help fix any issues after.
 13.  **Review the code**, in the cell that is added, in the last two
     lines of the cell, notice the dataframe returned is
     named  **df_stocks_clean_1** . Rename
-    this ***df_stocks_agg_minute***, and change the name of the function
-    to ***aggregate_data_minute*** as shown below.
+    this **df_stocks_agg_minute**, and change the name of the function
+    to **aggregate_data_minute** as shown below.
     ```
      **# old:**
       def clean_data(df_stocks_clean):
@@ -1518,17 +1517,17 @@ per-hour frequency, reducing the data to 24 rows/day per stock symbol.
     the existing ***df_stocks_agg_minute*** dataframe into data
     wrangler.
 
-2.  In the final placeholder under the ***Symbol/Date/Hour*** section,
+2.  In the final placeholder under the **Symbol/Date/Hour** section,
     place your cursor in the Add data wrangler here cell and select
     the cell. Dropdown the **Data Wrangler,** navigate and click on
-    ***df_stocks_agg_minute*** as shown in the below image.
+    **df_stocks_agg_minute** as shown in the below image.
 
      ![](./media/image217.png)
       ![](./media/image218.png)
 
-3.  Under ***Operations*,** select ***Group by and aggregate***. Click
+3.  Under ***Operations*,** select **Group by and aggregate**. Click
     on the dropdown below **Columns to group by** field and select
-    ***symbol*, *datestamp*, and *hour***, and then click on **+Add
+    **symbol**, **datestamp**, and **hour**, and then click on **+Add
     aggregations**. Create the following three aggregations and click on
     Apply button below it, as shown in the below image.
 
@@ -1707,7 +1706,7 @@ applied to larger datasets.
 
      ![](./media/image249.png)
 
-3.  Under the Explorer, select **Lakehouse**, then click on the ***Add**
+3.  Under the Explorer, select **Lakehouse**, then click on the **Add**
     button. 
 
      ![](./media/image250.png)
@@ -1719,7 +1718,7 @@ applied to larger datasets.
 
      ![](./media/image235.png)
 
-5.  On the OneLake data hub tab, select the ***StockLakehouse***  and
+5.  On the OneLake data hub tab, select the **StockLakehouse**  and
     click on the **Add** button.
 
      ![](./media/image149.png)
@@ -1805,7 +1804,7 @@ reporting, and create a simple Power BI report.
 
     ![](./media/image272.png)
 
-3.  Name the model +++ StocksDimensionalModel+++ and select the
+3.  Name the model !!StocksDimensionalModel!! and select the
     **fact_stocks_daily_prices**, **dim_date** and **dim_symbol**
     tables. Then, click on the **Confirm** button.
 
@@ -1900,7 +1899,7 @@ reporting, and create a simple Power BI report.
 
     ![](./media/image285.png)
 
-13. In the Save your report dialog box, enter +++StocksDimensional+++ as the name of your report and select
+13. In the Save your report dialog box, enter !!StocksDimensional!! as the name of your report and select
     **your workspace**. Click on the **Save button.**
 
     ![](./media/image286.png)
@@ -1954,7 +1953,7 @@ reporting, and create a simple Power BI report.
 
      ![](./media/image297.png)
 
-9.  On the OneLake data hub window, select the ***StockLakehouse*** and
+9.  On the OneLake data hub window, select the  **StockLakehouse**  and
     click on the **Add** button.
 
     ![](./media/image298.png)
@@ -2104,7 +2103,7 @@ completes these tasks at a high level:
 
      ![](./media/image297.png)
 
-5.  On the OneLake data hub window, select the ***StockLakehouse*** and
+5.  On the OneLake data hub window, select the  **StockLakehouse**  and
     click on the **Add** button.
 
     ![](./media/image298.png)
@@ -2295,7 +2294,7 @@ and enrichments like measures to make developing reports easier
     ![](./media/image371.png)
 
 4.  In the **New semantic model** pane **Name** field, enter the name of
-    the model as ***StocksLakehousePredictions**,* select the
+    the model as **!!StocksLakehousePredictions!!**, select the
     **stock_prediction**, and **dim_symbol** tables. Then, click on the
     **Confirm** button as shown in the below image.
 
@@ -2335,7 +2334,7 @@ and enrichments like measures to make developing reports easier
 ## Task 2: Build the report in Power BI Desktop
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: <https://powerbi.microsoft.com/en-us/desktop/> ,
+    the following URL: !!https://powerbi.microsoft.com/en-us/desktop/!! ,
     then press the **Enter** button.
 
 2.  Click on the **Download free** button.
@@ -2354,7 +2353,7 @@ and enrichments like measures to make developing reports easier
 
      ![](./media/image380.png)
 
-13. Enter your **Microsoft Office 365** **tenant** credentials and click
+13. Enter your tenent credentials and click
     on the **Next** button.
 
      ![](./media/image381.png)
@@ -2368,7 +2367,7 @@ and enrichments like measures to make developing reports easier
 
      ![](./media/image383.png)
 
-16. , On the *Home* ribbon, click the ***OneLake data hub*** and select
+16. , On the **Home** ribbon, click the  **OneLake data hub**  and select
     **KQL Database.**
 
       ![](./media/image384.png)
@@ -2378,7 +2377,7 @@ and enrichments like measures to make developing reports easier
 
       ![](./media/image385.png)
 
-18. Enter your **Microsoft Office 365** tenant credentials and click on
+18. Enter your tenant credentials and click on
     the **Next** button.
 
       ![](./media/image386.png)
@@ -2514,7 +2513,7 @@ and enrichments like measures to make developing reports easier
     ![](./media/image409.png)
 
 34. Measures are formulas written in the Data Analysis Expressions (DAX)
-    language; for this DAX formula, enter +++***currdate = NOW()+++* **
+    language; for this DAX formula, enter **!!currdate = NOW()!!**
 
      ![](./media/image410.png)
 
