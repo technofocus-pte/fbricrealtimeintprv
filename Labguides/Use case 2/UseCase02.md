@@ -44,7 +44,7 @@ dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and
 reports.
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://app.fabric.microsoft.com/+++ then press the
+    the following URL: !!https://app.fabric.microsoft.com/!! then press the
     **Enter** button. In the **Microsoft Fabric Home** page, navigate
     and click on **Power BI** tile.
 
@@ -64,7 +64,7 @@ reports.
 
     |  |  |
     |---|---|
-    |Name	|+++RealTimeWorkspaceXX+++(XX can be a unique number)| 
+    |Name	|!!RealTimeWorkspaceXX!!(XX can be a unique number)| 
     |Advanced|	Under License mode, select Trial|
     |Default |storage format	Small dataset storage format|
 
@@ -82,7 +82,7 @@ reports.
     ![](./media/image8.png)
 
 2.  On the **Real-Time Intelligence** home page, select **Eventhouse**.
-    Name the Eventhouse +++Tutorial+++  and click on the **Create**
+    Name the Eventhouse !!Tutorial!!  and click on the **Create**
     button.
 
       ![](./media/image9.png)
@@ -126,12 +126,12 @@ reports.
      ![](./media/image18.png)
 
 3.  In **Connect** tab, under **Sample data** enter the **Source name**
-    as +++TutorialSource+++
+    as !!TutorialSource!!
     ![](./media/image19.png)
 
 4.  Under the **Stream details, **edit** the **Eventstream name** by
     selecting the pencil icon and
-    entering +++TutorialEventstream+++. Select **Next**.
+    entering !!TutorialEventstream!!. Select **Next**.
 
       ![](./media/image20.png)
 
@@ -166,7 +166,7 @@ reports.
      ![](./media/image26.png)
 
 3.  In the  **Manage fields**  pane, in **Operation name**,
-    nter +++TutorialTransform+++ and Select **Add all fields**
+    nter !!TutorialTransform!! and Select **Add all fields**
 
      ![](./media/image27.png)
 
@@ -180,7 +180,7 @@ reports.
 
       ![](./media/image29.png)
 
-7.  Enter +++Timestamp+++ as the **Field name** andSelect **Add**.
+7.  Enter !!Timestamp!! as the **Field name** andSelect **Add**.
 
       ![](./media/image30.png)
 
@@ -217,11 +217,11 @@ reports.
 
     |Field	|Value|
     |---|---|
-    |Destination name|Enter +++TutorialDestination+++|
+    |Destination name|Enter !!TutorialDestination!!|
     |Workspace|	Select the workspace in which you created your resources.|
     |Eventhouse|Tutorial|
     |KQL Database|Tutorial|
-    |KQL Destination table|	Create new - enter +++TutorialTable+++ as table name and click on Done button|
+    |KQL Destination table|	Create new - enter !!TutorialTable!! as table name and click on Done button|
     |Input data format|	JSON|
     
     ![](./media/image37.png)
@@ -266,7 +266,7 @@ a time chart.
     ![](./media/image44.png)
 
 4.  Enter the name for the KQL
-    Queryset: +++TutorialQueryset+++ and select **Create**.
+    Queryset: !!TutorialQueryset!! and select **Create**.
 
       ![](./media/image45.png)
 
@@ -352,7 +352,7 @@ Use this (case-sensitive) name as the data source for your query.
      ![](./media/image52.png)
 
 5.  **New Real-Time Dashboard**  dialog box, enter
-    +++TutorialDashboard+++ in the **Name** field, click on the
+    !!TutorialDashboard!! in the **Name** field, click on the
     **Create** button and open the new **Real-Time Dashboard**
 
      ![](./media/image53.png)
@@ -424,7 +424,7 @@ Use this (case-sensitive) name as the data source for your query.
 
     ![](./media/image66.png)
 
-6.  Enter the new name ***+++Chelsea bikes+++*** to rename the tile.
+6.  Enter the new name ***!!Chelsea bikes!!*** to rename the tile.
 
     ![](./media/image67.png)
 
@@ -505,7 +505,7 @@ BI report.
 ## Task 2: Enable azure maps visuals sign in
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://app.fabric.microsoft.com/home+++ then
+    the following URL: !!https://app.fabric.microsoft.com/home!! then
     press the **Enter** button. In Microsoft Fabric page, click on
     **Power BI**.
 
@@ -641,7 +641,7 @@ falls below a certain threshold.
     |Save location|  |	
     |Workspace|	The workspace in which you created resources|
     |Item|	Create a new item|
-    |New item name|	+++Tutorial-Reflex+++|
+    |New item name|	!!Tutorial-Reflex!!|
 
     ![](./media/image105.png)
     
