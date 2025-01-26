@@ -70,7 +70,7 @@ dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and
 reports.
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://app.fabric.microsoft.com/+++ then
+    the following URL: !!https://app.fabric.microsoft.com/!! then
     press the **Enter** button. In the **Microsoft Fabric Home** page,
     navigate and click on **Power BI** tile.
 
@@ -89,7 +89,7 @@ reports.
 
       |   |   |
       |---|---|
-      |Name|	+++RTI-Medallion+++|
+      |Name|	!!RTI-Medallion!!|
       |Advanced|	Select Fabric Trial|
       |Default storage format|	Small dataset storage format|
 
@@ -106,7 +106,7 @@ reports.
      ![](./media/image8.png)
 
 2.  On the **Real-Time Intelligence** home page, select **Eventhouse**.
-    Name the Eventhouse **+++WebEvents_EH+++** and click on the
+    Name the Eventhouse **!!WebEvents_EH!!** and click on the
     **Create** button.
 
       ![](./media/image9.png)
@@ -146,7 +146,7 @@ eventstream and consumed by our Eventhouse KQL Database.
 
 2.  From your workspace, click on  **+ New item** \> **Eventstream** as
     shown in the below image.  Enter **Eventstream** as
-    +++WebEventsStream_ES+++
+    !!WebEventsStream_ES!!
 
       ![](./media/image16.png)
      
@@ -158,7 +158,7 @@ eventstream and consumed by our Eventhouse KQL Database.
 
     ![](./media/image18.png)
 
-4.  Insert +++WebEventsCustomSource+++ as the source name and the click
+4.  Insert !!WebEventsCustomSource!! as the source name and the click
     on **Add**.
 
      ![](./media/image19.png)
@@ -273,7 +273,7 @@ following steps.
 
       |Field|	Value|
       |--|---|
-      |Operation name|	+++ClickEventsFilter+++|
+      |Operation name|	!!ClickEventsFilter!!|
       |Select a field to filter on|	eventType|
       |Keep events when the value|	equals|
       |value|	CLICK|
@@ -296,7 +296,7 @@ following steps.
       ![](./media/image39.png)
 
 8.  Click on the pencil in node **Stream1** to go to edit mode.
-    Enter +++ClickEventsStream+++ as name of the Eventstream in the
+    Enter !!ClickEventsStream!! as name of the Eventstream in the
     field **Stream name**. Ensure that the **Input data
     format** is **Json**. Click on the Button **Save**.
 
@@ -323,7 +323,7 @@ following steps.
       |Workspace|	Select RTI-Medallion |
       |Eventhouse	|Select the Eventhouse WebEvents_EH|
       |KQL Database|	Select the KQL Database WebEvents_EH|
-      |Destination table|	Click on Create new and enter +++BronzeClicks+++ as name for the new table and click on **Done**|.
+      |Destination table|	Click on Create new and enter !!BronzeClicks!! as name for the new table and click on **Done**|.
       |Input data format|	Ensure that the option **Json** is selected.|
 
 
@@ -356,7 +356,7 @@ following steps.
 
       |Field|	Value|
       |---|----|
-      |**Operation name**|	+++ImpressionEventsFilter+++|
+      |**Operation name**|	!!ImpressionEventsFilter!!|
       |**Select a field to filter on**|	eventType|
       |**Keep events when the value**|	equals|
       |**value**|	IMPRESSION|
@@ -379,7 +379,7 @@ following steps.
       ![](./media/image52.png)
 
 18. Click on the pencil icon in the node **Stream1** to enter edit mode.
-    Enter **+++ImpressionsEventsStream+++** as name of the Eventstream
+    Enter **!!ImpressionsEventsStream!!** as name of the Eventstream
     in the field **Stream name**. Ensure that the **Input data
     format** is **Json**. Click on the Button **Save**.
 
@@ -400,7 +400,7 @@ following steps.
       |Workspace|	Select **RTI-Medallion**. If you attend the Precon at dataMinds Connectrope please select the Workspace Name that was provided to you.|
       |Eventhouse	|Select the Eventhouse **WebEvents_EH**|
       |KQL Database|	Select the KQL Database **WebEvents_EH**|
-      |Destination table|	Click on Create new and enter +++BronzeImpressions+++ as name for the new table and click on **Done**.|
+      |Destination table|	Click on Create new and enter !!BronzeImpressions!! as name for the new table and click on **Done**.|
       |Input data format|	Ensure that the option **Json** is selected.|
 
 
@@ -447,7 +447,7 @@ the KQL Database accessible through the lakehouse.
 
       ![](./media/image62.png)
 
-3.  In the dialog **New lakehouse** enter +++WebSalesData_LH+++ as name
+3.  In the dialog **New lakehouse** enter !!WebSalesData_LH!! as name
     for the new lakehouse. Ensure that the checkbox **Lakehouse schemas
     (Public Preview)** is not checked. Then click on the
     button **Create**
@@ -576,7 +576,6 @@ In this section we will create all the silver tables, functions and
 enable update policies and in our Eventhouse KQL Database. Two of the
 tables (product and productCategory) are shortcuts to the lakehouse and
 the data is **NOT** being copied into our KQL Database.
-
      ![](./media/image82.png)
 
 1.  Open the KQL Database **WebEvents_EH** in the Eventhouse of your
