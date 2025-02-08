@@ -46,20 +46,11 @@ reports.
 1.  Open your browser, navigate to the address bar, and type or paste
     the following URL: !!https://app.fabric.microsoft.com/!! then press the
     **Enter** button. In the **Microsoft Fabric Home** page, navigate
-    and click on **Power BI** tile.
+    and click on **+New workspace** tile.
 
-     ![](./media/image1.png)
+     ![](./media/a1.png)
 
-2.  In the **Power BI Home** page left-sided navigation menu, navigate
-    and click on **Workspaces** as shown in the below image.
-
-    ![](./media/image2.png)
-
-3.  In the Workspaces pane, click on **+New workspace button**
-
-     ![](./media/image3.png)
-
-4.  In the **Create a workspace** pane that appears on the right side,
+2.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
 
     |  |  |
@@ -76,20 +67,20 @@ reports.
 
 ## Task 3: Create an eventhouse
 
-1.  On the bottom left experience switcher, select **Real-Time
-    Intelligence**.
+Create a new Eventhouse by clicking on the **+New item** button in the navigation bar.
 
-    ![](./media/image8.png)
-
-2.  On the **Real-Time Intelligence** home page, select **Eventhouse**.
-    Name the Eventhouse !!Tutorial!!  and click on the **Create**
-    button.
-
-      ![](./media/image9.png)
+     ![](./media/a3.png)
  
-      ![](./media/image10.png)
+2.  Click on the "Eventhouse" tile.
 
-3.  When provisioning is complete, the eventhouse **System
+     ![](./media/a4.png)
+    
+3.  Name the Eventhouse !!Tutorial!!  and click on the **Create**
+    button.
+     
+    ![](./media/image10.png)
+
+4.  When provisioning is complete, the eventhouse **System
     overview** page is shown.
 
     ![](./media/image11.png)
