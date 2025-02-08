@@ -133,54 +133,6 @@ We recommend deploying the stock price generator via Azure Container
 Instance because the default Spark cluster will consume a large number
 of resources.
 
-## Task 0: Redeem Azure Pass
-
-1.  Open a new tab on your browser and browse to the **Microsoft Azure
-    Pass** website using the given link !!https://www.microsoftazurepass.com/!!.
-
-2.  Click on **Start**.
-
-     ![](./media/image2.png)
-
-3.  Enter the **Office 365 tenant credentials** from the Lab
-    VM(**Resources** tab) and **Sign In**.
-
-      ![](./media/image3.png)
-      ![](./media/image4.png)
-
-4.  Verify email id and then click on **Confirm Microsoft Account**.
-
-      ![](./media/image5.png)
-
-5.  Paste the **promo code** from the Resources tab in the **Enter Promo
-    code** box and click **Claim Promo Code**.
-
-     ![](./media/image6.png)
-
-      ![](./media/image7.png)
-
-6.  It may take few seconds to process the redemption.
-
-7.  Fill in the details appropriately on the **Sign up** page.
-
-8.  On the **Agreement** window, select the check box - I agree to the
-    subscription agreement, offer details, and privacy statement, and
-    then click on **Sign up**.
-
-    ![](./media/image8.png)
-
-9.  You may **Submit** the feedback while the account setup is in
-    progress.
-
-    ![](./media/image9.png)
-    ![](./media/image10.png)
-
-10. The account setup will take about 2-3 minutes to complete. It would
-    automatically redirect you to the **Azure Portal** and now you are
-    ready to use Azure services.
-
-     ![](./media/image11.png)
-
 ## **Task 1: Create a Fabric workspace**
 
 In this task, you create a Fabric workspace. The workspace contains all
@@ -190,21 +142,13 @@ reports.
 
 1.  Open your browser, navigate to the address bar, and type or paste
     the following URL: !!https://app.fabric.microsoft.com/!! then press the
-    **Enter** button. In the **Microsoft Fabric Home** page, navigate
-    and click on **Power BI** tile.
+    **Enter** button. 
 
-    ![](./media/image12.png)
+2.  In the **Home** page click on **+ New Workspaces** as shown in the below image.
 
-2.  In the **Power BI Home** page left-sided navigation menu, navigate
-    and click on **Workspaces** as shown in the below image.
+    ![](./media/a2.png)
 
-    ![](./media/image13.png)
-
-3.  In the Workspaces pane, click on **+** **New workspace button**
-
-     ![](./media/image14.png)
-
-4.  In the **Create a workspace** pane that appears on the right side,
+3.  In the **Create a workspace** pane that appears on the right side,
     enter the following details, and click on the **Apply** button.
     |  |  |
     |---|---|
@@ -365,13 +309,7 @@ over big data, time series data, and data transformation.
 To work with the data, we'll create a KQL database and stream data from
 the Eventstream into the KQL DB.
 
-1.  In the left-sided navigation menu, navigate and click on **RealTime
-    workspaceXXX**, as shown in the below image.
-
-      ![](./media/image43.png)
-
-2.  In the **Real-Time Intelligence** page, navigate to +**New item**
-    section and select **Eventhouse** to create Eventhouse.
+1.  Navigate to +**New item** section and select **Eventhouse** to create Eventhouse.
 
       ![](./media/image44.png)
 
@@ -434,7 +372,7 @@ the Eventstream into the KQL DB.
       ![](./media/image56.png)
 
 7.  On the first settings page, select **+New table** and enter the
-    name +++StockPrice+++ for the table to hold the data in
+    name **+++StockPrice+++** for the table to hold the data in
     StockDB. Click on the **Next** button.
 
     ![](./media/image57.png)
@@ -475,7 +413,7 @@ complexity to support different business uses.
 
      ![](./media/image65.png)
 
-2.  From your workspace, click on **+** **New item \> KQL Queryset** as
+2.  From your workspace, click on **+New item \> KQL Queryset** as
     shown in the below image. In the **New KQL Queryset** dialog box,
     enter +++StockQueryset+++, then click on the **Create**
     button.
@@ -595,7 +533,7 @@ complexity to support different business uses.
 ## Task 3: StockAggregate
 
 1.  Create another new tab within the queryset by clicking on
-    the  **+** **icon** as shown in the below image. Rename this tab as
+    the  **+icon** as shown in the below image. Rename this tab as
     **!!StockAggregate!!**
 
       ![](./media/image78.png)
@@ -1031,13 +969,7 @@ resemble the following:
 downloading the raw notebook file and not the HTML page from GitHub that
 is displaying the notebook.
 
-1.  Now, click on **RealTimeWorkspace** on the left-sided navigation
-    menu.
-
-    ![](./media/image139.png)
-
-2.  In the **Synapse Data Engineering** **RealTimeWorkspace** page,
-    navigate and click on **-\>|Import** button, then select
+1.  In the **Home** page,navigate and click on **-\>|Import** button, then select
     **Notebook** and select **From this computer** as shown in the below
     image.
 
