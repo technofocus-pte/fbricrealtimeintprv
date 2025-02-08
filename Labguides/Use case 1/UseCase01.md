@@ -81,7 +81,7 @@ KQL queries.
 
 5.  You’ll be directed to Power BI Home page.
 
-      ![](./media/image10.png)
+      ![](./media/a1.png)
 
 ## Task 2: Start the Microsoft Fabric trial
 
@@ -114,21 +114,11 @@ Follow these steps to start your Fabric trial.
 Before working with data in Fabric, create a workspace with the Fabric
 trial enabled.
 
-1.  In the **Microsoft Fabric** home page, select the **Power BI**
-    template.
+1.  Fabric home page, select **+New workspace** tile.
 
-     ![](./media/image15.png)
+     ![](./media/a2.png)
 
-2.  In the **Power BI Home** page menu bar on the left,
-    select **Workspaces** (the icon looks similar to 🗇).
-
-     ![](./media/image16.png)
-
-3.  In the Workspaces pane, select **+New workspace**.
-
-     ![](./media/image17.png)
-
-4.  In the **Create a workspace tab**, enter the following details and
+2.  In the **Create a workspace tab**, enter the following details and
     click on the **Apply** button.
 
       |   |   |
@@ -143,7 +133,7 @@ trial enabled.
 
      ![](./media/image20.png)
 
-5.  Wait for the deployment to complete. It takes 2-3 minutes to
+3.  Wait for the deployment to complete. It takes 2-3 minutes to
     complete. When your new workspace opens, it should be empty.
 
     ![](./media/image21.png)
@@ -155,14 +145,15 @@ a table that is defined in a KQL database. To analyze the sales data,
 you must create a table in a KQL database and ingest the data from the
 file.
 
-1.  At the bottom left of the Power BI portal, select the **Power
-    BI** icon and switch to the **Real-Time Intelligence** experience.
+1.  Create a new Eventhouse by clicking on the **+New item** button in the navigation bar.
 
-     ![](./media/image22.png)
+     ![](./media/a3.png)
  
-     ![](./media/image23.png)
+2.  Click on the "Eventhouse" tile.
 
-2.  In the **New Eventhouse** dialog box, enter the **Eventhouse name**
+     ![](./media/a4.png)
+
+3.  In the **New Eventhouse** dialog box, enter the **Eventhouse name**
     as !!FabricRTA!! (or new database with a name of your choice)
     and click on **Create** button.
 
