@@ -502,82 +502,17 @@ BI report.
     
     ![](./media/image82.png)
 
-## Task 2: Enable azure maps visuals sign in
 
-1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: !!https://app.fabric.microsoft.com/home!! then
-    press the **Enter** button. In Microsoft Fabric page, click on
-    **Power BI**.
+## Task 2: Add visualizations to the report
 
-    ![](./media/image83.png)
 
-2.  On right side of Power BI home page, click on the **Settings** icon.
-
-    ![](./media/image84.png)
-
-    In case, you did not see the **Settings** icon, then click on the
-    horizontal ellipsis on the top right side of the page, then navigate and
-    click on **Settings** as shown in the below image.
-
-3.  In Settings pane, scroll down to Governance and insights, then click
-    on Admin portal .
-
-    ![](./media/image85.png)
-    
-    ![](./media/image86.png)
-
-4.  In **Admin portal** pane, select **Tenant settings**, scroll down to
-    **Integration settings** section, click on **Use Azure Maps
-    visual**, then enable it using the **toggle** button. After **Use
-    Azure Maps visual** were Enabled, click on the **Apply** button.
-
-    ![](./media/image87.png)
-    
-    ![](./media/image88.png)
-
-5.  You will see a notification stating - **Applying changes.** It will
-    take approximately 15 minutes for implemting the tenant settings.
-
-     ![](./media/image89.png)
-
-6. In **Admin portal** pane, select **Tenant settings**, scroll down to
-    **Integration settings** section, click on **Map and filled map
-    visuals**, then enable it using the **toggle** button. After **Use
-    Map and filled map visuals** were Enabled, click on the **Apply**
-    button.
-
-    ![](./media/image90.png)
-
-7. You will see a notification stating - **Applying changes** It will
-    take approximately 15 minutes for implemting the tenant settings.
-
-    ![](./media/image91.png)
-
-## Task 3: Add visualizations to the report
-
-1.  In the report editor,
-    select **Visualizations** \> **Map** icon.
-     ![](./media/image92.png)
-
-     ![](./media/image93.png)
-
-2.  Drag the following fields from **Data** \> **Kusto Query Result** to
-    the **Visualizations** pane.
-
-    - **Lat** \> **Latitude**
-    - **Lon** \> **Longitude**
-    - **No_Bikes** \> **Bubble size**
-    - **Neighbourhood** \> **Add drill-through fields here**
-
-     ![](./media/image94.png)
-
-3.  In the report editor, select **Visualizations** \> **Stacked column
+1.  In the report editor, select **Visualizations** \> **Stacked column
     chart** icon.
      ![](./media/image95.png)
 
     ![](./media/image96.png)
 
-4.  Drag the following fields from **Data** \> **Kusto Query Result** to
+2.  Drag the following fields from **Data** \> **Kusto Query Result** to
     the **Visualizations** pane.
 
     - **Neighbourhood** \> **X-axis**
@@ -586,7 +521,7 @@ BI report.
 
     ![](./media/image97.png)
 
-## Task 4: Save the report
+## Task 3: Save the report
 
 1.  In the top left corner of the ribbon, select **File** \> **Save**.
 
