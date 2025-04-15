@@ -84,7 +84,7 @@ KQL queries.
       ![](./media/a1.png)
 
 ## Task 2: Start the Microsoft Fabric trial
-
+[Alert]**Note**: If Microsoft Fabric trial is enabled, please ignore Task 2
 Follow these steps to start your Fabric trial.
 
 1.  On **Power BI Home** page, click on the **Account manager** on the
@@ -262,31 +262,34 @@ Azure blob storage.
 
 4.  In the **Get data** tab, select the existing table as **logsRaw**.
     Under the Configure the data source tab enter the **URI :**
-    !!https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014!!  
+    !!https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014!!
+
+    [Alert]**Note**: If you encounter any issues with the URL, please try this alternative URL
+    !!https://rtainaday.blob.core.windows.net/logsbenchmark-onegb?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D!!
       ![](./media/image39.png)
 
-5.  In the **Get data** tab, click on the **+** and click on **Next**
+6.  In the **Get data** tab, click on the **+** and click on **Next**
     button.
 
     ![](./media/image40.png)
 
-6.  In Get data tab under the Inspect the data click on the horizontal
+7.  In Get data tab under the Inspect the data click on the horizontal
     **ellipses (…)** beside Edit columns, select the **Advanced** and
     check the **Keep table schema.** Click on the **Finish** button.
 
     ![](./media/image41.png)
 
-7.  Wait for the Data ingestion to be completed, and click **Close**.
+8.  Wait for the Data ingestion to be completed, and click **Close**.
 
       ![](./media/image42.png)
 
        ![](./media/image43.png)
 
-8.  Select **querysetXX** KQL queryset in the left navigation pane.
+9.  Select **querysetXX** KQL queryset in the left navigation pane.
 
       ![](./media/image44.png)
 
-9.  Replace all the code in the **cell** with the following code and
+10.  Replace all the code in the **cell** with the following code and
     click on **▷ Run** button
       ```
         logsRaw
