@@ -67,7 +67,7 @@ reports.
 
 ## Task 3: Create an eventhouse
 
-Create a new Eventhouse by clicking on the **+New item** button in the navigation bar.
+1. Create a new Eventhouse by clicking on the **+New item** button in the navigation bar.
 
      ![](./media/a3.png)
  
